@@ -33,7 +33,7 @@ ggplot(data = NDF, aes(x = Gender, y = Age, fill = Gender)) + geom_boxplot() +
   theme_bw()
 ```
 
-# View the Data {-}
+# View the Data {--}
 
 ```{r, label = "T1", results='markup'}
 knitr::kable(
